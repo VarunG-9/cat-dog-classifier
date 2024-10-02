@@ -12,7 +12,6 @@
     background-color: e3eaf3;
     padding: 1rem 2rem;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    margin-bottom: 150px;
     height: 75px;
 }
 
@@ -31,6 +30,7 @@
 }
 
 .box-div {
+    
     background-color: #f9f9ff;
     margin: auto;
     width: 550px;
@@ -41,7 +41,7 @@
     border-radius: 18px; 
     text-align: center; 
     transition: height 0.3s ease, width 0.3s ease, background-image 0.5s ease;
-    
+    margin-top: 100px;
 }
 
 #upload_icon {
@@ -58,12 +58,37 @@
 }
 
 #result {
-    font-family: 'RFDewi-Bold';
+    font-family: 'Arial', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #333333;
+    background-color: #f0f0f0;
+    padding: 8px 12px;
+    border-radius: 6px;
+    align-self: center;
+    border: 1px solid #dddddd;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    height: 50px;
+    width: 500px;
+  }
+  
+#result:hover {
+    background-color: #e0e0e0;
 }
-
 #result-div { 
     text-align: center;
     margin-top: 50px;
+    margin: 0 auto;
     display: none;
     transition: opacity 0.5s ease-in-out;
+}
+
+#alert {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
 }
