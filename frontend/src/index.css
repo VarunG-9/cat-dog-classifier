@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'RFDewi-Bold';
+    src: url('./fonts/RFDewi-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url('./fonts/Lato-Bold.ttf');
+}
+
+.navbar {
+    background-color: e3eaf3;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 150px;
+    height: 75px;
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Lato-Bold';
+}
+.classifier-description {
+    color: #34495e;
+    font-size: 18px;
+    margin: 0;
+}
+
+.box-div {
+    background-color: #f9f9ff;
+    margin: auto;
+    width: 550px;
+    height: 300px;
+    outline: dashed 1.5px;
+    outline-color: #c0c5e9;
+    padding-top: 10px;
+    border-radius: 18px; 
+    text-align: center; 
+    transition: height 0.3s ease, width 0.3s ease, background-image 0.5s ease;
+    
+}
+
+#upload_icon {
+    width: 75px;
+    height: 75px;
+    display: block;
+    margin: 20px auto;
+}
+
+#upload_button {
+    display: inline-block;
+    margin: 40px auto;
+    font-family: 'RFDewi-Bold';
+}
+
+#result {
+    font-family: 'RFDewi-Bold';
+}
+
+#result-div { 
+    text-align: center;
+    margin-top: 50px;
+    display: none;
+    transition: opacity 0.5s ease-in-out;
+}
