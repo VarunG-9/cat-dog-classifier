@@ -6,7 +6,7 @@ import matplotlib
 import torch
 import torch.nn as nn
 import torchvision.models as models
-
+import os
 class CatOrDog(nn.Module):
     def __init__(self):
         super().__init__()
@@ -36,5 +36,6 @@ def evaluate(file_path):
     with torch.no_grad():
         pred = model(img.unsqueeze(0)).argmax(dim=1)
         pred_word = classes[pred[0]]
+        os.remove(file_path)
         return pred_word 
 
