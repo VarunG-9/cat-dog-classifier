@@ -1,8 +1,6 @@
 import torch
 from PIL import Image
 from torchvision import transforms
-import matplotlib.pyplot as plt
-import matplotlib
 import torch
 import torch.nn as nn
 import torchvision.models as models
